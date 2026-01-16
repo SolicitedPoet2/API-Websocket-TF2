@@ -1,0 +1,13 @@
+[project]
+name = "api-websocket"
+version = "0.1.0"
+description = "É uma rest api com websocket para poder manter uma conexão com multiplas plataforma com o servidor de TF2"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.115.6",
+    "mysqlclient>=2.2.6",
+    "pkgconfig>=1.5.5",
+    "sqlmodel>=0.0.22",
+    "websockets>=14.1",
+]
